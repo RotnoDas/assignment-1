@@ -218,7 +218,6 @@
     display: flex;
     justify-content: space-between;
     align-items: first baseline;
-    margin-bottom: 120px;
 }
 
 .notes .card-container .card {
@@ -264,4 +263,66 @@
     letter-spacing: 0%;
     color: #627382;
     margin-bottom: 44px;
+}
+
+.main .second-brain {
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.second-brain .brain-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.brain-content .solution, .brain-content .brain, .brain-content ul li .brain-list {
+    font-family: "Inter", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #627382;
+    margin-bottom: 16px;
+}
+
+.brain-content .solution {
+    color: #469165;
+}
+
+.brain-content h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.brain-content .brain {
+    margin-bottom: 40px;
+    font-weight: 400px;
+}
+
+.brain-content ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.brain-content ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+.brain-content ul li .brain-list {
+    color: #001931;
 }
