@@ -459,3 +459,11 @@
     letter-spacing: 0%;
     color: #FAFAFA;
 }
+
+.hover-effect:hover {
+    background-color: #F95555;
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
